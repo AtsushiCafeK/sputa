@@ -1,4 +1,4 @@
-# Task Management System
+# Sputa - Task Management System
 
 Google Forms + Google Sheets + Web UI を連携した タスク管理システム
 
