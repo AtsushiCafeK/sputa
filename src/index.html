@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスク一覧 - Task Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <header class="header">
+                <h1>📋 タスク一覧</h1>
+                <div class="update-info">
+                    <span id="last-update">更新: --:--</span>
+                </div>
+            </header>
+
+            <main class="main">
+                <div id="tasks-container" class="tasks-container">
+                    <div class="loading">読み込み中...</div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <p>Task Management System</p>
+            </footer>
+        </div>
+    </div>
+
+    <script type="module" src="./main.ts"></script>
+</body>
+</html>

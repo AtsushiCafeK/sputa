@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスク一覧 - Task Manager</title>
+  <script src="/app/public/assets/index.js"></script>
+  <link rel="stylesheet" href="/app/public/assets/index.css">
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <header class="header">
+                <div>
+                    <h1>📋 タスク一覧</h1>
+                    <p class="form-link">
+                        <a href="https://forms.gle/LBTudtU6D5vuRnFc8" target="_blank" rel="noopener noreferrer">
+                            📝 質問箱フォーム
+                        </a>
+                    </p>
+                    <div class="info-box">
+                        <p>パソコンやスマホのトラブルや使い方など質問したい方は質問箱フォームから送ってください</p>
+                        <p>進捗を書きへ表示しながら回答含めて進めていきます</p>
+                        <p>ベストエフォートですので遅くなる場合もあります</p>
+                    </div>
+                </div>
+                <div class="update-info">
+                    <span id="last-update">更新: --:--</span>
+                </div>
+            </header>
+
+            <main class="main">
+                <div id="tasks-container" class="tasks-container">
+                    <div class="loading">読み込み中...</div>
+                </div>
+            </main>
+
+            <footer class="footer">
+                <div>Task Management System - Produced & Operated by <a href="https://it-libero.com" target="_blank" rel="noopener noreferrer">IT-Libero</a></div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
